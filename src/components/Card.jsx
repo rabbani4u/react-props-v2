@@ -11,7 +11,8 @@ function Card(props) {
         <Avator img={props.img} />
       </div>
       <div className="bottom">
-        <Details tel={props.tel} email={props.email} />
+        <Details detailInfo={props.tel} />
+        <Details detailInfo={props.email} />
       </div>
     </div>
   );
